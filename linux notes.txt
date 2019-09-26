@@ -1,0 +1,4 @@
+Set up virtual new commands
+	virtualnev “name”
+	source “name”/bin/activate
+	deactivate
