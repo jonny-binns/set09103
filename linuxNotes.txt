@@ -2,3 +2,9 @@ Set up virtual new commands
 	virtualnev “name”
 	source “name”/bin/activate
 	deactivate
+
+Running instructions
+	export FLASK_APP=appname.py
+	export FLASK_ENV=development
+	python -m flask run --host=0.0.0.0
+	visit http://webtech-06.napier.ac.uk:5000
