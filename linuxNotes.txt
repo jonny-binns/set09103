@@ -8,3 +8,22 @@ Running instructions
 	export FLASK_ENV=development
 	python -m flask run --host=0.0.0.0
 	visit http://webtech-06.napier.ac.uk:5000
+
+tmux commands
+	start session: tmux
+	ctrl+b starts commands
+	ctrl+b c = new window
+	ctrl+b , = rename window
+	ctrl+b p/n = previous/next window
+	ctrl+b w = list windows
+	ctrl+b % = split horizontally
+	ctrl+b : = type command
+	ctrl+b : split-window/ctrl+b "  = split vertically
+	ctrl+b left arrow key = move to left pane
+	ctrl+b right arror key = move to right pane
+	ctrl+b up arrow key = move to above pane
+	ctrl+b down arror key = move to below pane
+	exit = close pane/window/tmux	
+	cheat sheet = https://gist.github.com/andreyvit/2921703
+
+
